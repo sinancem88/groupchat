@@ -1,0 +1,12 @@
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\bin\Debug\net7.0\Secure.deps.json
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\bin\Debug\net7.0\Secure.dll
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\bin\Debug\net7.0\Secure.pdb
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\obj\Debug\net7.0\Secure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\obj\Debug\net7.0\Secure.AssemblyInfoInputs.cache
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\obj\Debug\net7.0\Secure.AssemblyInfo.cs
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\obj\Debug\net7.0\Secure.csproj.CoreCompileInputs.cache
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\obj\Debug\net7.0\Secure.dll
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\obj\Debug\net7.0\refint\Secure.dll
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\obj\Debug\net7.0\Secure.pdb
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\obj\Debug\net7.0\ref\Secure.dll
+C:\Users\sinan\Desktop\VisualStudio\Visual Studio Projekte\NetworkSassion\Secure\obj\Debug\net7.0\Secure.csproj.AssemblyReference.cache

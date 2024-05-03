@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Le0kBmH1yqTn1xunMMoC62aREVX9EEXn6HV3Dzo0/gj1gg6Lg3RQ78igbk5beqOG2687pnfXHIiiM9aVQWmzFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sinan\\Desktop\\VisualStudio\\Visual Studio Projekte\\NetworkSassion\\TestAppDatabase\\TestAppDatabase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sinan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\sinan\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

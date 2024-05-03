@@ -1,0 +1,116 @@
+﻿<UserControl x:Class="Client.ClientUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Client"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    
+    <Grid >
+
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" >
+            <Label Content="IP: " />
+            <TextBox x:Name="_IPText" Width="356" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+            <Label Content="Port: "/>
+            <TextBox x:Name="_PortText" Width="471"/>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="2" Grid.Column="0">
+            <Label Content="Message"/>
+            <TextBox x:Name="_MessageBox" TextWrapping="Wrap" Height="53" VerticalScrollBarVisibility="Visible" IsReadOnly="True" Width="795"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4" Grid.Column="1">
+            <TextBox x:Name="_UserName" >
+
+            </TextBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Grid.Column="0" >
+            <Label Content="TextMessage"/>
+            <TextBox x:Name="_MessageText" TextWrapping="Wrap"  Width="796" Height="154" VerticalScrollBarVisibility="Visible" IsReadOnly="False"/>
+            <Button Content="send" Click="OnSendMessageClicked"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Button Content="connect" Click="OnConnectToServerButtonClicked"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Grid.Column="1">
+            <Label Content="username"/>
+            <TextBox Name="_NewUser" />
+            <Label Content="password"/>
+            <TextBox Name="_NewPassword" />
+            <Button Content="add user" Click="OnAddUserButtonClicked"/>
+        </StackPanel>
+
+
+
+        <StackPanel Name="_StatusBar"
+          Grid.ColumnSpan="3" Grid.Row="5" Grid.Column="0" >
+            <StatusBar DockPanel.Dock="Bottom">
+                <StatusBarItem>
+                    <TextBlock Name="_Status" 
+                             Width="auto"/>
+                </StatusBarItem>
+            </StatusBar>
+        </StackPanel>
+
+        <StackPanel Grid.Row="6">
+
+            <DockPanel Name="_menuBar"
+     Grid.ColumnSpan="3" Grid.Row="0" 
+     HorizontalAlignment="Left" VerticalAlignment="Top" >
+
+                <Menu DockPanel.Dock="Top">
+                     File Bar
+                    <MenuItem Header="_File" >
+
+                        <MenuItem Header="_Open..." Name="Open"  />
+
+                        <MenuItem Header="_Save" Name="Save" 
+                      />
+                        <Separator />
+                        <MenuItem Header="_Exit" Name="Exit" />
+                    </MenuItem>
+
+                    <MenuItem Header="_Help">
+                        <MenuItem Header="_About" Name="About" />
+                        <MenuItem Header="_Questions" Name="Questions" />
+                    </MenuItem>
+                   
+                </Menu>
+            </DockPanel>
+
+
+        </StackPanel>
+
+    </Grid>
+</UserControl>

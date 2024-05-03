@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "pyLEdSme3Np6jw1EJiCMAunNyFSB0KB/sU6S6QZgMwxDepZXrpOd+5KH28wHT47Vsd4FfmfG93/98xJz3UAAUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sinan\\Downloads\\PortfolioProjektergebnis 4FSC0SD001_1 Cem Balkanlioglu\\Umsetzung\\GroupChatApp\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sinan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\sinan\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\sinan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\sinan\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\sinan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\sinan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
